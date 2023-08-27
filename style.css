@@ -19,4 +19,12 @@ body {
     width: 10rem;
     height: 10rem;
     background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.gamebox:hover {
+    opacity: 0.8;    
 }
