@@ -2,3 +2,21 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gameboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gamebox {
+    width: 10rem;
+    height: 10rem;
+    background-color: cadetblue;
+}
